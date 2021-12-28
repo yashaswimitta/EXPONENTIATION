@@ -10,18 +10,24 @@ To write a program to find the exponentiation of a number.
 ## Algorithm
 1. Get the input from the user.
 2. Use exponentiation operator to find the exponentiation of a number.
+3. Print the output.
+4. End of the program
 
 ## Program:
 ```
-/*
-Program to find the exponentiation of a number.
-Developed by: 
-RegisterNumber: 
-*/
+#Program to to find the Exponentiation of a number.
+#Developed by: S.ABHISHEK
+#RegisterNumber: 21004552
+def exp(a,b):
+    c=a**b
+    return c
+a=int(input())
+b=int(input())
+print("Exponentiation of a given number:",exp(a,b))
 ```
 
 ## Output:
-![exponentiation of a number](expo.png)
+![Github logo](expo.png)
 
 
 ## Result:
